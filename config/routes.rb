@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   resources :bookmarks, only: :destroy
   resources :reviews, only: :destroy
 
-  root to: 'articles#index'
-  resources :articles, except: :index
-  
+  # root to: 'articles#index'
+  # resources :articles, except: :index
+
 end
